@@ -2,7 +2,6 @@
     width: 200px;
     height: 56px;
     stroke-width: 1.40px;
-    // transition: border 0.3s ease;
     border-radius: 55px;
     border-color: #458ff6;
 
@@ -12,4 +11,15 @@
         line-height: 111%;
         color: #458ff6;
     }
+}
+
+%card-base {
+    border-radius: 20px;
+    width: 350px;
+    height: 354px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    background-color: #fff;
 }

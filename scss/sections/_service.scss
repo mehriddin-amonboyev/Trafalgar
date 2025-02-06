@@ -1,0 +1,80 @@
+.service {
+    padding-top: 169px;
+}
+
+.service__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 952px;
+}
+
+.service__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 156%;
+    color: #000;
+}
+
+.rectangle {
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    background: #000;
+    margin-top: 26px;
+    margin-bottom: 33px;
+}
+
+.service__sub_title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #7d7987;
+}
+
+.service__list {
+    min-width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 78px;
+    gap: 37px;
+}
+
+.service__item {
+    @extend %card-base;
+    box-shadow: 10px 40px 50px 0 rgba(229, 233, 246, 0.4);
+}
+
+.service__item_block {
+    margin-top: 54px;
+    margin-left: 37px;
+}
+
+.service__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 233%;
+    color: #000;
+}
+
+.service__sub_title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 175%;
+    color: #7d7987;
+}
+
+.service__btn{
+    @extend %button-base;
+    margin-top: 71px;
+}
