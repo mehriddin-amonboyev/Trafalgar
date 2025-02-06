@@ -31,14 +31,14 @@ li {
   border: 1px solid red;
 }
 
-.service__btn, .vertual-heal__btn {
+.service__btn, .vertual-heal__btn, .provider-heal__btn {
   width: 200px;
   height: 56px;
   stroke-width: 1.4px;
   border-radius: 55px;
   border-color: #458ff6;
 }
-.service__btn span, .vertual-heal__btn span {
+.service__btn span, .vertual-heal__btn span, .provider-heal__btn span {
   font-weight: 700;
   font-size: 18px;
   line-height: 111%;
@@ -104,6 +104,41 @@ li {
   font-size: 18px;
   color: #1f1534;
   opacity: 1;
+}
+
+.provider-heal {
+  margin-top: 122px;
+}
+
+.provider-heal__block {
+  background-image: url("../../image/providerHeal.svg");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.provider-heal__about {
+  width: 422px;
+  margin-left: auto;
+  margin-top: 57px;
+  margin-bottom: 33px;
+}
+
+.provider-heal__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 156%;
+  color: #000;
+}
+
+.provider-heal__sub_title {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167%;
+  color: #7d7987;
+}
+
+.provider-heal__btn {
+  margin-top: 40px;
 }
 
 .vertual-heal {
