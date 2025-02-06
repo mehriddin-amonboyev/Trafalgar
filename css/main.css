@@ -27,18 +27,22 @@ li {
   list-style-type: none;
 }
 
+.a {
+  border: 1px solid white;
+}
+
 .b {
   border: 1px solid red;
 }
 
-.service__btn, .vertual-heal__btn, .provider-heal__btn {
+.mobile__btn, .service__btn, .vertual-heal__btn, .provider-heal__btn {
   width: 200px;
   height: 56px;
   stroke-width: 1.4px;
   border-radius: 55px;
   border-color: #458ff6;
 }
-.service__btn span, .vertual-heal__btn span, .provider-heal__btn span {
+.mobile__btn span, .service__btn span, .vertual-heal__btn span, .provider-heal__btn span {
   font-weight: 700;
   font-size: 18px;
   line-height: 111%;
@@ -276,4 +280,47 @@ li {
 
 .service__btn {
   margin-top: 71px;
+}
+
+.mobile {
+  padding-top: 32px;
+  margin-left: 40px;
+}
+
+.mobile__block {
+  position: relative;
+  background-image: url("../../image/mobile.svg");
+  background-size: 665px 434px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.mobile__about {
+  width: 420px;
+  height: 279px;
+  margin-top: 277px;
+}
+
+.mobile__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 133%;
+  color: #000;
+}
+
+.rectangle {
+  border-radius: 6px;
+  width: 56px;
+  height: 2px;
+}
+
+.mobile__sub_title {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167%;
+}
+
+.mobile__btn {
+  margin-top: 51px;
+  margin-bottom: 12px;
 }/*# sourceMappingURL=main.css.map */

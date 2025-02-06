@@ -1,0 +1,43 @@
+.mobile {
+    padding-top: 32px;
+    margin-left: 40px;
+}
+
+.mobile__block {
+    position: relative;
+    background-image: url("../../image/mobile.svg");
+    background-size: 665px 434px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.mobile__about {
+    width: 420px;
+    height: 279px;
+    margin-top: 277px;
+}
+
+.mobile__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    color: #000;
+}
+
+.rectangle {
+    border-radius: 6px;
+    width: 56px;
+    height: 2px;
+}
+
+.mobile__sub_title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 167%;
+}
+
+.mobile__btn {
+    @extend %button-base;
+    margin-top: 51px;
+    margin-bottom: 12px;
+}
