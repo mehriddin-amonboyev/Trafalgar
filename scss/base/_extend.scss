@@ -1,0 +1,15 @@
+%button-base {
+    width: 200px;
+    height: 56px;
+    stroke-width: 1.40px;
+    // transition: border 0.3s ease;
+    border-radius: 55px;
+    border-color: #458ff6;
+
+    span {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        color: #458ff6;
+    }
+}

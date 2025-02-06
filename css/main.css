@@ -4,6 +4,9 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
   font-family: "Mulish", sans-serif;
 }
 
@@ -26,6 +29,20 @@ li {
 
 .b {
   border: 1px solid red;
+}
+
+.vertual-heal__btn {
+  width: 200px;
+  height: 56px;
+  stroke-width: 1.4px;
+  border-radius: 55px;
+  border-color: #458ff6;
+}
+.vertual-heal__btn span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #458ff6;
 }
 
 .header {
@@ -80,4 +97,38 @@ li {
   font-size: 18px;
   color: #1f1534;
   opacity: 1;
+}
+
+.vertual-heal {
+  padding-top: 80px;
+}
+
+.vertual-heal__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vertual-heal__title_block {
+  margin: 106px 108px 0px 6px;
+}
+
+.vertual-heal__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 117%;
+  color: #000;
+}
+
+.vertual-heal__sub_title {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 152%;
+  color: #7d7987;
+  margin-top: 25px;
+  margin-bottom: 39px;
+}
+
+.vertual-heal__btn {
+  margin-right: 7px;
 }/*# sourceMappingURL=main.css.map */

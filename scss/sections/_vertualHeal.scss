@@ -1,0 +1,32 @@
+.vertual-heal {
+    padding-top: 80px;
+}
+
+.vertual-heal__block {
+    display: flex;
+}
+
+.vertual-heal__title_block {
+    margin: 106px 108px 0px 6px;
+}
+
+.vertual-heal__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 117%;
+    color: #000;
+}
+
+.vertual-heal__sub_title {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 152%;
+    color: #7d7987;
+    margin-top: 25px;
+    margin-bottom: 39px;
+}
+
+.vertual-heal__btn{
+    @extend %button-base;
+    margin-right: 7px;
+}
