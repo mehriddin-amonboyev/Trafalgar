@@ -1,0 +1,43 @@
+.header {
+    padding-top: 135px;
+}
+
+.header__block {
+    display: flex;
+}
+
+.header__site-logo {
+    display: flex;
+    max-width: 160px;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+    padding-left: 7px;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #233348;
+}
+
+.header__list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__item {
+    font-weight: 400;
+    font-size: 18px;
+    color: #1f1534;
+    opacity: 0.5;
+}
+
+.active {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1f1534;
+    opacity: 1;
+}
